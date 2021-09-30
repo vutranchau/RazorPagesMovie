@@ -175,3 +175,8 @@ D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Student\Delete.cshtml.
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Student\Details.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Student\Edit.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Student\Index.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Create.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Delete.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Details.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Edit.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Index.cshtml.g.cs

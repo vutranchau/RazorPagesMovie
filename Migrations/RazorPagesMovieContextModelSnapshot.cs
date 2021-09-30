@@ -13,7 +13,7 @@ namespace RazorPagesMovie.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.9");
+                .HasAnnotation("ProductVersion", "5.0.10");
 
             modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
                 {
@@ -36,6 +36,19 @@ namespace RazorPagesMovie.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Movie");
+                });
+
+            modelBuilder.Entity("RazorPagesMovie.Models.SinhVien", b =>
+                {
+                    b.Property<string>("SinhVienID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("HoVaTen")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("SinhVienID");
+
+                    b.ToTable("SinhVien");
                 });
 
             modelBuilder.Entity("RazorPagesMovie.Models.Student", b =>
