@@ -1,0 +1,36 @@
+@page
+@model RazorPagesMovie.Pages_SinhVien.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh Sách Sinh Viên</h1>
+
+<p>
+    <a asp-page="Create">Tạo Mới Sinh viên</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SinhVien[0].HoVaTen)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.SinhVien) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoVaTen)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.SinhVienID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.SinhVienID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.SinhVienID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
