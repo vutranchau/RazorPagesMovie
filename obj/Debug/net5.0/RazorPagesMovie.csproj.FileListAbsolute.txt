@@ -190,3 +190,8 @@ D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Delete.cshtml.
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Details.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Edit.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Index.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Person\Create.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Person\Delete.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Person\Details.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Person\Edit.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Person\Index.cshtml.g.cs
