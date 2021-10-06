@@ -34,8 +34,9 @@ namespace RazorPagesMovie.Pages_Movies
             {
                 return Page();
             }
-            //bat buoc de luu thay doi vao database
+            
             _context.Movie.Add(Movie);
+            //bat buoc de luu thay doi vao database
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
