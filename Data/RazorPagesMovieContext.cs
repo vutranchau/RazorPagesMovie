@@ -17,5 +17,11 @@ using RazorPagesMovie.Models;
         public DbSet<RazorPagesMovie.Models.Student> Student { get; set; }
 
         public DbSet<RazorPagesMovie.Models.SinhVien> SinhVien { get; set; }
+
+        public DbSet<RazorPagesMovie.Models.Employee> Employee { get; set; }
+
+        public DbSet<RazorPagesMovie.Models.Lecture> Lecture { get; set; }
+
+        public DbSet<RazorPagesMovie.Models.Person> Person { get; set; }
         
     }

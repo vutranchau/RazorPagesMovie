@@ -180,3 +180,13 @@ D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Delete.cshtml
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Details.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Edit.cshtml.g.cs
 D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\SinhVien\Index.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Employee\Create.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Employee\Delete.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Employee\Details.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Employee\Edit.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Employee\Index.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Create.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Delete.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Details.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Edit.cshtml.g.cs
+D:\code\Net2\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Lecture\Index.cshtml.g.cs
