@@ -29,11 +29,12 @@ namespace RazorPagesMovie.Pages_Movies
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
+            // valid dữ liệu với model
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-
+            //bat buoc de luu thay doi vao database
             _context.Movie.Add(Movie);
             await _context.SaveChangesAsync();
 
