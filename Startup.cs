@@ -14,7 +14,7 @@ namespace RazorPagesMovie
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration,  IWebHostEnvironment env)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Environment = env;
             Configuration = configuration;
@@ -26,18 +26,8 @@ namespace RazorPagesMovie
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            if (Environment.IsDevelopment())
-        {
             services.AddDbContext<RazorPagesMovieContext>(options =>
-            options.UseSqlite(
-                Configuration.GetConnectionString("RazorPagesMovieContext")));
-        }
-        else
-        {
-            services.AddDbContext<RazorPagesMovieContext>(options =>
-            options.UseSqlServer(
-                Configuration.GetConnectionString("MovieContext")));
-        }
+        options.UseSqlite(Configuration.GetConnectionString("RazorPagesMovieContext")));
 
         services.AddRazorPages();
         }
