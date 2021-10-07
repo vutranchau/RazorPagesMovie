@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using RazorPagesMovie.Data;
 
 namespace RazorPagesMovie.Migrations
 {
